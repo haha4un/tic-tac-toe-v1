@@ -394,7 +394,8 @@ namespace tic_tac_toe
                 desk[1] == "x" & desk[4] == "x" & desk[7] == "x" ||
                 desk[2] == "x" & desk[5] == "x" & desk[8] == "x" ||
                 desk[3] == "x" & desk[4] == "x" & desk[5] == "x" ||
-                desk[6] == "x" & desk[7] == "x" & desk[8] == "x")
+                desk[6] == "x" & desk[7] == "x" & desk[8] == "x" ||
+                desk[2] == "x" & desk[4] == "x" & desk[6] == "x")
             {
                 MessageBox.Show("'X' is winner!");
                 allBlocked();
@@ -405,7 +406,8 @@ namespace tic_tac_toe
               desk[1] == "o" & desk[4] == "o" & desk[7] == "o" ||
               desk[2] == "o" & desk[5] == "o" & desk[8] == "o" ||
               desk[3] == "o" & desk[4] == "o" & desk[5] == "o" ||
-              desk[6] == "o" & desk[7] == "o" & desk[8] == "o")
+              desk[6] == "o" & desk[7] == "o" & desk[8] == "o" ||
+              desk[2] == "o" & desk[4] == "o" & desk[6] == "o")
             {
                 MessageBox.Show("'O' is winner!");
                 allBlocked();
