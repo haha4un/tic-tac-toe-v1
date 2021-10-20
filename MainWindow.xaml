@@ -1,0 +1,35 @@
+﻿<Window x:Class="tic_tac_toe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tic_tac_toe"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Button x:Name="zeroZero" Click="zeroZero_Click" Content="" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0" Grid.Column="0" Width="100" Height="100"/>
+        <Button x:Name="zeroOne" Click="zeroOne_Click" Content="" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0" Grid.Column="1" Width="100" Height="100"/>
+        <Button x:Name="zeroTwo" Click="zeroTwo_Click" Content="" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0" Grid.Column="2" Width="100" Height="100"/>
+
+        <Button x:Name="oneZero" Click="oneZero_Click" Content="" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0" Width="100" Height="100"/>
+        <Button x:Name="oneOne"  Click="oneOne_Click" Content="" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Width="100" Height="100"/>
+        <Button x:Name="oneTwo" Click="oneTwo_Click" Content="" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.Column="2" Width="100" Height="100"/>
+
+        <Button x:Name="twoZero" Click="twoZero_Click" Content="" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="0" Width="100" Height="100"/>
+        <Button x:Name="twoOne" Click="twoOne_Click" Content="" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="1" Width="100" Height="100"/>
+        <Button x:Name="twoTwo" Click="twoTwo_Click" Content="" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="2" Width="100" Height="100"/>
+
+    </Grid>
+</Window>
